@@ -1,0 +1,76 @@
+
+table{
+	
+	/*center align*/
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+	/*change all font type*/
+}
+
+/*below code for slide_show_table*/
+#slide_show_table{
+	width: 924px;
+	/*center align*/
+	margin-left: auto;
+	margin-right: auto;
+
+}
+#slide_show_table td{
+	/*cells of player is gray*/
+	background-color: #FDD6D8;
+
+}
+.thumbnail{
+	padding: 5px;
+	/*thumbnail should be smaller width*/
+	width: 20%;
+}
+.thumbnail img{
+	/*let the images become thumbnail size*/
+	width: 231px;
+	height: 140px;
+}
+#thumbnail1:hover{
+	background-color: #FFE8ED;
+}
+#thumbnail2:hover{
+	background-color: #FFE8ED;
+}
+#thumbnail3:hover{
+	background-color: #FFE8ED;
+}
+#focus_pic_container{
+	padding: 15px;
+	width: 740px;
+}
+#focus_pic_container>img{
+	/*fill the show area*/
+	width: 100%;
+	height: 50%;
+}
+
+/*below code for ranking_area*/
+.hot_topic{
+	font-weight:bold;
+	color:#F4FA58;
+	margin-top:5px;
+	margin-left:5px;
+	margin-bottom:5px;
+}
+.first{
+	font-size:150%;
+	color:#FE2E9A;
+}
+.second{
+	font-size:120%;
+	color:#01A9DB;
+}
+#ranking_area>td{
+	padding: 20px;
+	width: 100px;
+}
+
+#searchBox{
+	display: none;
+}
